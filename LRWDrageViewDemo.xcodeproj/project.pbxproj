@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		FBDBA4761DDEF2D200A7EBEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA4751DDEF2D200A7EBEC /* main.m */; };
 		FBDBA4791DDEF2D200A7EBEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA4781DDEF2D200A7EBEC /* AppDelegate.m */; };
-		FBDBA47C1DDEF2D200A7EBEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA47B1DDEF2D200A7EBEC /* ViewController.m */; };
+		FBDBA47C1DDEF2D200A7EBEC /* LRWDrageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA47B1DDEF2D200A7EBEC /* LRWDrageViewController.m */; };
 		FBDBA47F1DDEF2D200A7EBEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDBA47D1DDEF2D200A7EBEC /* Main.storyboard */; };
 		FBDBA4811DDEF2D200A7EBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDBA4801DDEF2D200A7EBEC /* Assets.xcassets */; };
 		FBDBA4841DDEF2D200A7EBEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDBA4821DDEF2D200A7EBEC /* LaunchScreen.storyboard */; };
+		FBDBA48E1DDEF69B00A7EBEC /* objcBlockbyLRW.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA48D1DDEF69B00A7EBEC /* objcBlockbyLRW.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		FBDBA4751DDEF2D200A7EBEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBDBA4771DDEF2D200A7EBEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBDBA4781DDEF2D200A7EBEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FBDBA47A1DDEF2D200A7EBEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FBDBA47B1DDEF2D200A7EBEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBDBA47A1DDEF2D200A7EBEC /* LRWDrageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWDrageViewController.h; sourceTree = "<group>"; };
+		FBDBA47B1DDEF2D200A7EBEC /* LRWDrageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRWDrageViewController.m; sourceTree = "<group>"; };
 		FBDBA47E1DDEF2D200A7EBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBDBA4801DDEF2D200A7EBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBDBA4831DDEF2D200A7EBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBDBA4851DDEF2D200A7EBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDBA48C1DDEF69B00A7EBEC /* objcBlockbyLRW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objcBlockbyLRW.h; sourceTree = "<group>"; };
+		FBDBA48D1DDEF69B00A7EBEC /* objcBlockbyLRW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objcBlockbyLRW.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		FBDBA4681DDEF2D200A7EBEC = {
 			isa = PBXGroup;
 			children = (
+				FBDBA48B1DDEF69B00A7EBEC /* objcBlockbyLRW */,
 				FBDBA4731DDEF2D200A7EBEC /* LRWDrageViewDemo */,
 				FBDBA4721DDEF2D200A7EBEC /* Products */,
 			);
@@ -60,8 +64,8 @@
 			children = (
 				FBDBA4771DDEF2D200A7EBEC /* AppDelegate.h */,
 				FBDBA4781DDEF2D200A7EBEC /* AppDelegate.m */,
-				FBDBA47A1DDEF2D200A7EBEC /* ViewController.h */,
-				FBDBA47B1DDEF2D200A7EBEC /* ViewController.m */,
+				FBDBA47A1DDEF2D200A7EBEC /* LRWDrageViewController.h */,
+				FBDBA47B1DDEF2D200A7EBEC /* LRWDrageViewController.m */,
 				FBDBA47D1DDEF2D200A7EBEC /* Main.storyboard */,
 				FBDBA4801DDEF2D200A7EBEC /* Assets.xcassets */,
 				FBDBA4821DDEF2D200A7EBEC /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				FBDBA4751DDEF2D200A7EBEC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBDBA48B1DDEF69B00A7EBEC /* objcBlockbyLRW */ = {
+			isa = PBXGroup;
+			children = (
+				FBDBA48C1DDEF69B00A7EBEC /* objcBlockbyLRW.h */,
+				FBDBA48D1DDEF69B00A7EBEC /* objcBlockbyLRW.m */,
+			);
+			path = objcBlockbyLRW;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBDBA47C1DDEF2D200A7EBEC /* ViewController.m in Sources */,
+				FBDBA48E1DDEF69B00A7EBEC /* objcBlockbyLRW.m in Sources */,
+				FBDBA47C1DDEF2D200A7EBEC /* LRWDrageViewController.m in Sources */,
 				FBDBA4791DDEF2D200A7EBEC /* AppDelegate.m in Sources */,
 				FBDBA4761DDEF2D200A7EBEC /* main.m in Sources */,
 			);
@@ -302,6 +316,7 @@
 				FBDBA48A1DDEF2D200A7EBEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
