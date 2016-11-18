@@ -48,7 +48,14 @@
     
     UIPanGestureRecognizer *pan =[[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panClick:)];
     [self.midleV addGestureRecognizer:pan];
+    
+    //增加点按收手势会到初始位置
+    UITapGestureRecognizer *tap= [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapClick)];
+    [self.view addGestureRecognizer:tap];
 
+}
+-(void)tapClick{
+    self.midleV.frame =self.view.bounds;
 }
 
 -(void)panClick:(UIPanGestureRecognizer*)sender{
@@ -65,7 +72,7 @@
         }else if(off_x<-kScreenWidth*0.5){
             self.midleV.frame=[self framWithoffset_x:-kScreenWidth*0.8-off_x];
         }else{
-            self.midleV.frame=[self framWithoffset_x:-off_x];
+            self.midleV.frame=self.view.bounds;
         }
     }
     
